@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>CloudDemo</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+  <link rel="icon" type="image/x-icon" href="favicon.ico">  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+  <link rel="stylesheet" href="../static/css/homepage.css">
+  <script src="../static/js/homepage.js"></script>
+</head>
+<body>
+
+    <nav class="navbar navbar-cdvs">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="">
+                <p>
+                    <span class="btn-default" style="font-size: 150%; border-radius: 7%;">Cloud</span><span class="btn-warning" style="font-size: 150%; border-radius: 7%;">Demo</span>
+                </p>
+            </a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li><a href="">Validation History</a></li>      
+            <li><a href="">Sign Out</a></li>
+          </ul>
+        </div>
+    </nav>
+      
+      
+    <div class="container">
+        <div class="row">    
+          
+          <div class="col-md-3 aws">
+            <img class="awsiconlayout" src="../static/images/aws1.png">
+            <br>
+            <hr>
+            <p class="awscloud text-center">Amazon Web Services</p>
+            <hr>
+            <br>
+            <p class="cloudaws">AWS is a subsidiary of Amazon that provides on-demand cloud computing platform and APIs to individuals, companies, and the governments on a metered pay- as-you-go basis.</p>      
+            <br>
+            <button type="button" class="btn btn-warning buttonstyle" data-toggle="modal" data-target="#myAWSModal">Connect</button>
+          </div>
+      
+          <div class="col-md-1"></div>
+      
+          <div class="col-md-4 azuremain">
+            <div class="azure">
+              <img class="azureicon" src="../static/images/azure1.png">
+              <br>
+              <hr>
+              <p class="awscloud text-center">Microsoft Azure</p>
+              <hr>
+              <br>
+              <p class="cloudazure">Azure,a cloud computing service created by Microsoft for building, testing, deploying and managing applications and provide services through Microsoft-managed data centers.</p>      
+              <br>
+              <button class="btn btn-warning azurebuttonstyle">Connect</button>
+            </div>
+          </div>
+      
+          <div class="col-md-1"></div>
+      
+          <div class="col-md-3 aws">
+            <img class="awsicon" src="../static/images/gcp.png">
+            <br>
+            <hr>
+            <p class="awscloud text-center">Google Cloud Platform</p>
+            <hr>
+            <br>
+            <p class="cloudaws">Google Cloud Platform (GCP) is offered by Google, suite of cloud computing services that runs on the same infrastructure which is Google use internally for its end-user products.</p>      
+            <br>
+            <button class="btn btn-warning buttonstyle">Connect</button>
+          </div>
+          
+        </div>
+    </div>
+
+    <!-- AWS Modal -->
+    <div class="modal fade" id="myAWSModal" role="dialog">
+        <div class="modal-dialog">
+          <form action="/awsdashboard" method="POST">          
+          <!-- AWS Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Amazon Web Services</h4>
+              </div>
+              <div class="modal-body">
+                <label>Access Key</label>
+                <input type="text" placeholder="Access Key" required name="access_key" class="form-control">
+                <br>
+                <label>Secret Key</label>
+                <input type="password" placeholder="Secret Key" required name="secret_key" class="form-control">
+              </div>
+              <div class="modal-footer">
+                <button type="submit" class="btn btn-warning">Connect</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>            
+              </div>
+            </div>
+          </form>
+        </div>
+    </div>    
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

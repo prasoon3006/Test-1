@@ -1,0 +1,104 @@
+.navbar-cdvs{
+    background-color: #0F9FFA;    
+}
+
+.navbar-nav{
+    text-align: right;
+    float: right;
+}
+
+a{
+    color: white;
+    float: right;
+}
+
+.aws{
+    background-color: #0F9FFA;
+    margin-top: 7%;
+}
+
+.cloudaws{
+    color: white;
+    font-size: 17px;
+    padding-top: 3%;
+    padding-left: 2%;
+}
+
+.awscloud{
+    color: white;    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 23px;
+}
+
+.awsicon{
+    height: 60%;
+    width: 60%;
+    margin-left: 19%;
+    margin-top: 5%;
+}
+
+.awsiconlayout{
+    height: 45%;
+    width: 45%;
+    margin-left: 25%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+
+.buttonstyle{
+    color: white;
+    width: 79%;
+    margin-left: 9%;
+    margin-bottom: 7%;
+}
+
+.azure{
+    background-color: #0F9FFA;
+}
+
+.azuremain{
+    margin-top: 7%;
+    padding-left: 3%;
+    padding-right: 4%;
+}
+
+.azureicon{
+    height: 40%;
+    width: 40%;
+    margin-left: 27%;
+    margin-top: 5%;
+}
+
+.cloudazure{
+    color: white;
+    font-size: 17px;
+    padding-top: 3%;
+    padding-left: 8%;
+}
+
+.azurebuttonstyle{
+    color: white;
+    width: 69%;
+    margin-left: 13%;
+    margin-bottom: 6%;
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 10%;
+    width: 100%;
+    margin-top: 10%;
+    background-color:#0F9FFA;   
+    color: white;
+    text-align: center;
+}
+
+.infosys{
+    height: 25%;
+    width: 29%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    float: left;
+}

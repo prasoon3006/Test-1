@@ -1,0 +1,74 @@
+.navbar-cdvs{
+    background-color: #0F9FFA;    
+}
+
+.navbar-nav{
+    text-align: right;
+    float: right;
+}
+
+.loginstyle{
+    background-color: #0F9FFA;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+.logostyle{
+    height: 25%;
+    width: 25%;
+    padding-top: 10%;
+    padding-bottom: 11%;
+    margin-left: 40%;
+    margin-top: 12%;
+}
+
+.signin{
+    padding-left: 15%;
+    padding-right: 15%;
+    color: white;
+    font-size: 15px;
+}
+
+a{
+    color: white;
+    float: right;
+}
+
+.loginbtn{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 35%;
+    margin-top: 7%;
+    margin-left: 34%;
+    color: #0F9FFA;
+    margin-bottom: 27%;
+}
+
+.toolstyle{
+    background-color: whitesmoke;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+.style1{
+    color: #0F9FFA;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 5%;
+    margin-top: 39%;
+}
+
+.style2{
+    color: #0F9FFA;
+    font-size: 19px;
+}
+
+.style3{
+    color: #0F9FFA;
+    margin-top: 50%;
+}
+
+.style4{
+    background-color:#0F9FFA;
+    color: white;
+}
